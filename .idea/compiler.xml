@@ -12,6 +12,7 @@
         <module name="payment-service" />
         <module name="common-dto" />
         <module name="dummy-service3" />
+        <module name="dummy-service2" />
         <module name="dummy-service1" />
         <module name="order-service" />
       </profile>
@@ -24,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common-dto" options="-parameters" />
       <module name="dummy-service1" options="-parameters" />
+      <module name="dummy-service2" options="-parameters" />
       <module name="dummy-service3" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
       <module name="order-orchestrator" options="-parameters" />

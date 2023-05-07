@@ -28,18 +28,6 @@ public class OrchestratorService {
     private WebClient inventoryClient;
 
     @Autowired
-    @Qualifier("dummy1")
-    private WebClient dummy1Client;
-
-    @Autowired
-    @Qualifier("dummy2")
-    private WebClient dummy2Client;
-
-    @Autowired
-    @Qualifier("dummy3")
-    private WebClient dummy3Client;
-
-    @Autowired
     private Sinks.Many<OrchestratorRequestDTO> orderSink;
 
     public Mono<OrchestratorResponseDTO> orderProduct(final OrchestratorRequestDTO requestDTO){
