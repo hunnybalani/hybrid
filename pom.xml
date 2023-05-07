@@ -9,7 +9,10 @@
 		<module>order-orchestrator</module>
 		<module>payment-service</module>
 		<module>inventory-service</module>
-        <module>dummyservice2</module>
+		<module>dummyservice1</module>
+		<module>dummyservice2</module>
+		<module>dummyservice3</module>
+		<module>dummyservice3</module>
     </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
